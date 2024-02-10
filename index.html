@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar's Cipher</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+    
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="headline">
+            <h1>Welcome to Caesar's Cipher!</h1>
+        </div> 
+        <br>
+        <p>Please enter your text:</p>
+        <div class="text"></div>
+            <textarea class="textarea" id="message" name="message" placeholder="Type text here"></textarea><br><br>
+        </div>
+        <div class="added">
+            <p>Key/ Shift:</p>
+            <div class="text"></div>
+                <textarea class="textarea2" id="shift" name="shift" placeholder="Write a number between 1 and 26"></textarea><br><br>
+            </div>
+            <button class="button" onclick="CaesarsCipher()">Encrypt</button>
+            <button class="button" onclick="GetKey()">Decrypt</button>
+        </div>
+        <br><br>
+        <div class="res">
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="CaesarsCipher.js"></script>
+
+</body>
+
+</html>

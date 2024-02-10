@@ -1,0 +1,56 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    border: 0px;
+}
+
+#body {
+    height: auto;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: fantasy;
+    color: blue;
+    font-size: 40px;
+}
+
+.textarea {
+    width: 60em;
+	height: 15em;
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.textarea2 {
+    width: 10em;
+	height: 4em;
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: blue;;
+    margin-left: 20px;
+}
